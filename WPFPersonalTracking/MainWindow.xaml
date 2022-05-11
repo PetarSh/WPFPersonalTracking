@@ -31,7 +31,7 @@
         <ContentControl Content="{Binding}" Grid.Column="1" Grid.Row="1" Grid.RowSpan="8" RenderTransformOrigin="0.45,-1.126" Height="Auto" Width="Auto"/>
         <Label x:Name="lblWindowName" Content="Windows Name" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Center" Cursor="" FontSize="36" Width="547" Margin="403,0,0,0"/>
         <StackPanel Grid.Row="1" Margin="0.2, 0">
-            <Button Grid.Row="1" Name="btnEmployee" Height="60" Width="250" HorizontalAlignment="Left">
+            <Button Grid.Row="1" Name="btnEmployee" Height="60" Width="250" HorizontalAlignment="Left" Click="btnEmployee_Click">
                 <Grid Width="230">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto" />
