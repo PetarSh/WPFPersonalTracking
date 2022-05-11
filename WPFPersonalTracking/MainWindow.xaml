@@ -140,5 +140,8 @@
         <DataTemplate x:Name="PositionTemplate" DataType="{x:Type viewmodels:PositionViewModel}">
             <views:PositionList></views:PositionList>
         </DataTemplate>
+        <DataTemplate x:Name="EmployeeTemplate" DataType="{x:Type viewmodels:EmployeeViewModel}">
+            <views:EmployeeList></views:EmployeeList>
+        </DataTemplate>
     </Window.Resources>
 </Window>

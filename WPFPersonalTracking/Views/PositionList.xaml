@@ -21,7 +21,7 @@
             <Button x:Name="btnUpdate" Grid.Column="1" Margin="40,5,40,5" Content="Update" FontSize="16" FontWeight="Bold" Click="btnUpdate_Click"></Button>
             <Button x:Name="btnDelete" Grid.Column="2" Margin="40,5,40,5" Content="Delete" FontSize="16" FontWeight="Bold" Click="btnDelete_Click"></Button>
         </Grid>
-        <DataGrid x:Name="GridPosition" IsReadOnly="True" AutoGenerateColumns="False" SelectionUnit="FullRow" FontSize="16">
+        <DataGrid x:Name="GridPosition" IsReadOnly="True" AutoGenerateColumns="False" SelectionUnit="FullRow" SelectionMode="Single" FontSize="16">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Width="*" Binding="{Binding Id}" Visibility="Hidden"/>
                 <DataGridTextColumn Header="Position Name" Width="2*" Binding="{Binding PositionName}"/>
